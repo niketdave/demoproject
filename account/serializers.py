@@ -87,7 +87,7 @@ class UserListSerializer(serializers.HyperlinkedModelSerializer):
         model = User
         fields = (
             'id', 'url', 'user_type', 'first_name', 'last_name',
-            'email', 'profile_assigned_roles', 'profile_assigned_permissions',
+            'email',
             'is_active','created_at')
 
 
